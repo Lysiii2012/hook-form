@@ -4,7 +4,7 @@ import * as yup from "yup";
 
 const schema = yup
   .object({
-    todo: yup.string().min(8, 'Need more than 8 symbols').required(),
+    todo: yup.string().min(5, 'Need more than 5 symbols').required(),
   })
   .required();
 
